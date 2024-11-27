@@ -185,7 +185,7 @@ const Step1 = ({ formData, updateFormData, nextStep }: { formData: any; updateFo
         <div>
           <label className="block mb-2">State</label>
           <Autocomplete
-            className="py-2 p-0 m-0"
+            className="p-0 m-0"
             options={states}
             value={personalInfo.state}
             onChange={(event, newValue: string) => handleInputChange("state", newValue || "")}
